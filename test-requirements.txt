@@ -6,7 +6,7 @@
 #
 attrs==23.1.0
     # via -r test-requirements.in
-black==23.9.1
+black==24.3.0
     # via -r test-requirements.in
 cfgv==3.4.0
     # via pre-commit
@@ -81,8 +81,7 @@ virtualenv==20.24.5
     # via pre-commit
 
 # The following packages are considered to be unsafe in a requirements file:
-setuptools==70.0.0
+setuptools==71.1.0
     # via
     #   -r test-requirements.in
     #   nodeenv
-zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
